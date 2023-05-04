@@ -1,0 +1,144 @@
+/* Mobile */
+@media only screen and (max-width: 490px) {
+    .container {
+      border: 2px solid black;
+      align-items: flex-start;
+      margin: 0;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        border: 2px solid black;
+    }
+    
+    form {
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0.5rem;
+        margin-left: 0.5rem;
+    }
+
+    label {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 1rem;
+    }
+    
+    label span {
+        margin-bottom: 1rem;
+        width: 100px;
+        text-align: center;
+    }
+    
+    input {
+        width: 100%;
+    }
+}
+  
+/* TABLET */
+@media only screen and (max-width: 800px) {
+    .container {
+        border: 2px solid black;
+        margin: 0;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+    }
+  
+    section {
+          display: flex;
+          flex-direction: column;
+    }
+  
+    img {
+          border: 2px solid black;
+          order: 1;
+    }
+      
+    form {
+          order: 2;
+          padding: 0.5rem;
+    }
+  
+    label {
+          display: flex;
+          flex-direction: row;
+          text-align: center;
+          align-items: center;
+          padding: 1rem;
+    }
+      
+    label span {
+          margin-bottom: 1rem;
+          width: 50%;
+          text-align: center;
+    }
+      
+    input {
+          width: 100%;
+    }
+}
+
+/* DESKTOP/LAPTOP */
+@media only screen and (min-width: 1024px) {
+    .container {
+        border: 2px solid black;
+    }
+    
+    img {
+        border: 2px solid black
+    }
+    
+    body {
+        display: flex;
+        justify-content: center;
+    }
+    
+    section {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        margin-left: 0.5rem; 
+    }
+    
+    label {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end; 
+        margin-bottom: 2.5rem;
+    }
+    
+    label span {
+        margin-bottom: 1rem;
+        width: 500px;
+        text-align: left;
+    }
+    
+    input {
+        width: 100%;
+    }
+    
+}
+  
+
+  
+  
