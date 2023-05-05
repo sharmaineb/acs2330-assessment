@@ -46,18 +46,23 @@
 @media only screen and (max-width: 800px) {
     .container {
         border: none;
-        height: 100%;
+        width: 500px;
+        margin: auto;
     }
   
     section {
           display: flex;
           flex-direction: column;
           border: 2px solid black;
+          width: 100%;
     }
   
     img {
-          border: 2px solid black;
-          order: 1;          
+          border: 0.5px solid black;
+          order: 1;
+          width: 100%;
+          height: auto;          
+          border-bottom: 1.3px solid black;
     }
       
     form {
@@ -73,12 +78,14 @@
     }
       
     label span {
-          width: auto;
-          text-align: right;
+          width: 100%;
+          text-align: center;
+          margin-right: 0;
+          padding-right: 1rem;
     }
       
     input {
-          width: 75%;
+          width: 200%;
     }
 }
 
