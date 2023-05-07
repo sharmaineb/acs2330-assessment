@@ -8,25 +8,25 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>	
-	<main role="content" class="container">
+	<main class="container" aria-label="content">
 		<section>
-			<form>
-				<label>
+			<form aria-label="Filter Form">
+				<label for="hue">
 					<span>Hue Rotate</span>
 					<input id="hue" type="range" min="0" max="360" value="0" aria-label="Hue Rotate" aria-valuemin="0" aria-valuemax="360" aria-valuenow="0" />
 				</label>
 				
-				<label>
+				<label for="blue">
 					<span>Blur</span>
 					<input id="blur" type="range" min="0" max="40" value="0" aria-label="Blur" aria-valuemin="0" aria-valuemax="40" aria-valuenow="0" />
 				</label>
 
-				<label>
+				<label for="contrast">
 					<span>Contrast</span>
 					<input id="contrast" type="range" min="0" max="400" value="50" aria-label="Contrast" aria-valuemin="0" aria-valuemax="400" aria-valuenow="50" />
 				</label>
 
-				<label>
+				<label for="saturation">
 					<span>Saturation</span>
 					<input id="saturation" type="range" min="0" max="200" value="100" aria-label="Saturation" aria-valuemin="0" aria-valuemax="200" aria-valuenow="100" />
 				</label>
